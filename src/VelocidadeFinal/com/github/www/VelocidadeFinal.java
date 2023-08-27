@@ -35,7 +35,7 @@ public class VelocidadeFinal {
         System.out.print("Digite a RPM Maxima: ");
         int RPM = scanner.nextInt();
 
-        /** Faz os Calculo do Pneu */
+        /** Faz os Calculos do Pneu */
         float larguraPneuCorrigida = (float) larguraPneu / 10;
         float alturaPneuCorrigida = (float) alturaPneu / 100;
         float circuferenciaPneu = (float) (((larguraPneuCorrigida * alturaPneuCorrigida * 2) + (aroRoda * 2.54)) * 3.141592 / 100);
